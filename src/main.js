@@ -11,12 +11,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBJa1SPjo1Wm0ZgYXZnmdmvoqs_hHlmiXU",
-  authDomain: "vue-firebase-auth-bafc4.firebaseapp.com",
-  projectId: "vue-firebase-auth-bafc4",
-  storageBucket: "vue-firebase-auth-bafc4.appspot.com",
-  messagingSenderId: "728860345284",
-  appId: "1:728860345284:web:b163b8b54d1f40a5c15a91",
+  apiKey: "AIzaSyAdiYEpjASgd3vlzY_YZrbyePJeX8U6VvY",
+  authDomain: "matbook-93511.firebaseapp.com",
+  projectId: "matbook-93511",
+  storageBucket: "matbook-93511.appspot.com",
+  messagingSenderId: "385796186485",
+  appId: "1:385796186485:web:8e6f5854325b46749db33c",
+  measurementId: "G-ZCKBWBF9HP"
 };
 
 // Initialize Firebase
