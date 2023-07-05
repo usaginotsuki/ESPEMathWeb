@@ -1,11 +1,17 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
+import Vue from 'vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+// Import Bootstrap and BootstrapVue CSS files (order is important)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 createApp(App).use(router).mount("#app");
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+import { initializeApp } from 'firebase/app';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -19,6 +25,7 @@ const firebaseConfig = {
   appId: "1:385796186485:web:8e6f5854325b46749db33c",
   measurementId: "G-ZCKBWBF9HP"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
